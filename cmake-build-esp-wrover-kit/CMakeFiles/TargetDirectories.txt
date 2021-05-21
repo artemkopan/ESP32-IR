@@ -1,0 +1,5 @@
+/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/CMakeFiles/rebuild_cache.dir
+/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/CMakeFiles/edit_cache.dir
+/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/CMakeFiles/Z_DUMMY_TARGET.dir
+/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/CMakeFiles/Debug.dir
+/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/CMakeFiles/Production.dir

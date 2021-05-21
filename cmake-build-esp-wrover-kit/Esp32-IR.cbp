@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Esp32-IR"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/include"/>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src"/>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager"/>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/src"/>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_trace"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_update"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/asio"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/bootloader_support"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/bt"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/coap"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/console"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/driver"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/efuse"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp-tls"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp32"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_adc_cal"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_event"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_http_client"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_http_server"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_https_ota"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_https_server"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_ringbuf"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_websocket_client"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/espcoredump"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/ethernet"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/expat"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fatfs"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/freemodbus"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/freertos"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/heap"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/idf_test"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/jsmn"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/json"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/libsodium"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/log"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/lwip"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/mbedtls"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/mdns"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/micro-ecc"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/mqtt"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/newlib"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/nghttp"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/nvs_flash"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/openssl"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/protobuf-c"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/protocomm"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/pthread"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/sdmmc"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/smartconfig_ack"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/soc"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/spi_flash"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/spiffs"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/tcp_transport"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/tcpip_adapter"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/ulp"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/unity"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/vfs"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/wear_levelling"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/wifi_provisioning"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/wpa_supplicant"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/xtensa-debug-module"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp-face"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp32-camera"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fb_gfx"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/cores/esp32"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/variants/esp32"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src"/>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src"/>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/AzureIoT/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/BluetoothSerial/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/ESP32/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/FS/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/NetBIOS/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/Preferences/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/SD/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/Update/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src"/>
+					<Add directory="/Users/user/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/5.2.0"/>
+					<Add directory="/Users/user/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/5.2.0/xtensa-esp32-elf"/>
+					<Add directory="/Users/user/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/5.2.0/include"/>
+					<Add directory="/Users/user/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed"/>
+					<Add directory="/Users/user/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include"/>
+					<Add directory="/Users/user/.platformio/packages/tool-unity"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/include"/>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src"/>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager"/>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/src"/>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_trace"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_update"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/asio"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/bootloader_support"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/bt"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/coap"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/console"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/driver"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/efuse"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp-tls"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp32"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_adc_cal"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_event"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_http_client"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_http_server"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_https_ota"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_https_server"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_ringbuf"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_websocket_client"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/espcoredump"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/ethernet"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/expat"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fatfs"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/freemodbus"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/freertos"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/heap"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/idf_test"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/jsmn"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/json"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/libsodium"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/log"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/lwip"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/mbedtls"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/mdns"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/micro-ecc"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/mqtt"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/newlib"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/nghttp"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/nvs_flash"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/openssl"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/protobuf-c"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/protocomm"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/pthread"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/sdmmc"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/smartconfig_ack"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/soc"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/spi_flash"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/spiffs"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/tcp_transport"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/tcpip_adapter"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/ulp"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/unity"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/vfs"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/wear_levelling"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/wifi_provisioning"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/wpa_supplicant"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/xtensa-debug-module"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp-face"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp32-camera"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fb_gfx"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/cores/esp32"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/variants/esp32"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src"/>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src"/>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/AzureIoT/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/BluetoothSerial/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/ESP32/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/FS/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/NetBIOS/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/Preferences/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/SD/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/Update/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src"/>
+					<Add directory="/Users/user/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/5.2.0"/>
+					<Add directory="/Users/user/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/5.2.0/xtensa-esp32-elf"/>
+					<Add directory="/Users/user/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/5.2.0/include"/>
+					<Add directory="/Users/user/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed"/>
+					<Add directory="/Users/user/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include"/>
+					<Add directory="/Users/user/.platformio/packages/tool-unity"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/.github/issue_template.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/.github/workflows/LibraryBuild.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/Contributing.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/Contributors.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/changelog.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/ControlRelay/ControlRelay.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/ControlRelay/PinDefinitionsAndMore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/IRDispatcherDemo/IRCommandDispatcher.cpp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/IRDispatcherDemo/IRCommandDispatcher.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/IRDispatcherDemo/IRCommandMapping.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/IRDispatcherDemo/IRDispatcherDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/IRremoteExtensionTest/IRremoteExtensionClass.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/IRremoteExtensionTest/IRremoteExtensionTest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/IRremoteExtensionTest/PinDefinitionsAndMore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/IRremoteInfo/IRremoteInfo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/MicroGirs/MicroGirs.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/MinimalReceiver/MinimalReceiver.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/ReceiveAndSend/PinDefinitionsAndMore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/ReceiveAndSend/ReceiveAndSend.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/ReceiveDemo/IRremote_SendDemo_ReceiveDemo.log">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/ReceiveDemo/PinDefinitionsAndMore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/ReceiveDemo/ReceiveDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/ReceiveDump/PinDefinitionsAndMore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/ReceiveDump/ReceiveDump.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/ReceiverTimingAnalysis/ReceiverTimingAnalysis.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SendAndReceive/PinDefinitionsAndMore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SendAndReceive/SendAndReceive.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SendAndReceive/SendAndReceive.log">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SendBoseWaveDemo/PinDefinitionsAndMore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SendBoseWaveDemo/SendBoseWaveDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SendDemo/IRremote_SendDemo_ReceiveDemo.log">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SendDemo/PinDefinitionsAndMore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SendDemo/SendDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SendLGAirConditionerDemo/PinDefinitionsAndMore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SendLGAirConditionerDemo/Readme.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SendLGAirConditionerDemo/SendLGAirConditionerDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SendProntoDemo/PinDefinitionsAndMore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SendProntoDemo/SendProntoDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SendRawDemo/PinDefinitionsAndMore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SendRawDemo/SendRawDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SimpleReceiver/PinDefinitionsAndMore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SimpleReceiver/SimpleReceiver.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SimpleSender/PinDefinitionsAndMore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/SimpleSender/SimpleSender.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/UnitTest/PinDefinitionsAndMore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/UnitTest/UnitTest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/examples/UnitTest/UnitTest.log">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/IRFeedbackLED.cpp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/IRProtocol.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/IRReceive.cpp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/IRSend.cpp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/IRremote.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/IRremoteInt.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/LongUnion.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/TinyIRReceiver.cpp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/TinyIRReceiver.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/digitalWriteFast.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/ir_BoseWave.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/ir_Denon.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/ir_Dish.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/ir_DistanceProtocol.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/ir_JVC.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/ir_Kaseikyo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/ir_LG.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/ir_Lego.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/ir_MagiQuest.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/ir_NEC.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/ir_Pronto.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/ir_RC5_RC6.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/ir_Samsung.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/ir_Sony.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/ir_Template.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/ir_Whynter.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/private/IRFeedbackLEDDefs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src/private/IRTimer.cpp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/.github/issue_template.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/.github/workflows/LibraryBuild.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/Contributing.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/Contributors.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/changelog.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/BoseWaveSendDemo/BoseWaveSendDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/IR2Keyboard/IR2Keyboard.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/IRDispatcherDemo/ATtinySerialOut.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/IRDispatcherDemo/ATtinySerialOut.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/IRDispatcherDemo/IRCommandDispatcher.cpp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/IRDispatcherDemo/IRCommandDispatcher.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/IRDispatcherDemo/IRCommandMapping.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/IRDispatcherDemo/IRDispatcherDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/IRUnitTest/IRUnitTest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/IRreceiveDemo/IRreceiveDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/IRreceiveDump/IRreceiveDump.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/IRrecord/IRrecord.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/IRrelay/IRrelay.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/IRremoteInfo/IRremoteInfo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/IRsendDemo/ATtinySerialOut.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/IRsendDemo/ATtinySerialOut.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/IRsendDemo/IRsendDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/IRsendProntoDemo/IRsendProntoDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/IRsendRawDemo/IRsendRawDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/LGACSendDemo/LGACSendDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/LGACSendDemo/Readme.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/MicroGirs/MicroGirs.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/MinimalReceiver/ATtinySerialOut.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/MinimalReceiver/ATtinySerialOut.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/MinimalReceiver/MinimalReceiver.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/examples/ReceiverTimingAnalysis/ReceiverTimingAnalysis.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/readmdFrench.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/IRremote.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/IRremote.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/LongUnion.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/TinyIRReceiver.cpp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/TinyIRReceiver.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/digitalWriteFast.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/esp32.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/irPronto.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/irReceive.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/irSend.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/ir_BoseWave.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/ir_Denon.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/ir_Dish.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/ir_JVC.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/ir_Kaseikyo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/ir_LG.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/ir_Lego.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/ir_MagiQuest.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/ir_NEC.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/ir_RC5_RC6.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/ir_Samsung.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/ir_Sanyo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/ir_Sony.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/ir_Template.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/ir_Whynter.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/nRF5.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/private/IRremoteBoardDefs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/private/IRremoteInt.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src/sam.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/.gitattributes">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/.style.yapf">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/.travis.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/CPPLINT.cfg">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/README_de.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/README_fr.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/ReleaseNotes.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/SupportedProtocols.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/BlynkIrRemote/BlynkIrRemote.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/BlynkIrRemote/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/CommonAcControl/CommonAcControl.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/CommonAcControl/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/ControlSamsungAC/ControlSamsungAC.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/ControlSamsungAC/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/DumbIRRepeater/DumbIRRepeater.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/DumbIRRepeater/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRGCSendDemo/IRGCSendDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRGCSendDemo/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRGCTCPServer/IRGCTCPServer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRGCTCPServer/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRMQTTServer/IRMQTTServer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRMQTTServer/IRMQTTServer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRMQTTServer/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRServer/IRServer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRServer/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRrecvDemo/IRrecvDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRrecvDemo/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRrecvDump/IRrecvDump.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRrecvDump/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRrecvDumpV2/IRrecvDumpV2.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRrecvDumpV2/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRrecvDumpV3/BaseOTA.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRrecvDumpV3/IRrecvDumpV3.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRrecvDumpV3/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRsendDemo/IRsendDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRsendDemo/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRsendProntoDemo/IRsendProntoDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/IRsendProntoDemo/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/JVCPanasonicSendDemo/JVCPanasonicSendDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/JVCPanasonicSendDemo/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/LGACSend/LGACSend.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/LGACSend/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/SmartIRRepeater/SmartIRRepeater.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/SmartIRRepeater/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnArgoAC/TurnOnArgoAC.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnArgoAC/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnDaikinAC/TurnOnDaikinAC.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnDaikinAC/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnFujitsuAC/TurnOnFujitsuAC.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnFujitsuAC/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnGreeAC/TurnOnGreeAC.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnGreeAC/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnKelvinatorAC/TurnOnKelvinatorAC.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnKelvinatorAC/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnMitsubishiAC/TurnOnMitsubishiAC.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnMitsubishiAC/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnMitsubishiHeavyAc/TurnOnMitsubishiHeavyAc.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnMitsubishiHeavyAc/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnPanasonicAC/TurnOnPanasonicAC.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnPanasonicAC/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnToshibaAC/TurnOnToshibaAC.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnToshibaAC/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnTrotecAC/TurnOnTrotecAC.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/TurnOnTrotecAC/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/Web-AC-control/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/Web-AC-control/Web-AC-control.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/Web-AC-control/Web-AC-control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/Web-AC-control/data/favicon.ico">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/Web-AC-control/data/level_1_off.svg">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/Web-AC-control/data/level_1_on.svg">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/Web-AC-control/data/level_2_off.svg">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/Web-AC-control/data/level_2_on.svg">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/Web-AC-control/data/level_3_off.svg">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/Web-AC-control/data/level_3_on.svg">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/Web-AC-control/data/level_4_off.svg">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/Web-AC-control/data/level_4_on.svg">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/Web-AC-control/data/ui.html">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/Web-AC-control/data/ui.js">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/Web-AC-control/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/examples/Web-AC-control/printscreen.png">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/CPPLINT.cfg">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/IRac.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/IRac.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/IRrecv.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/IRrecv.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/IRremoteESP8266.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/IRsend.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/IRsend.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/IRtext.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/IRtext.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/IRtimer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/IRtimer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/IRutils.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/IRutils.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/i18n.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Airwell.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Airwell.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Aiwa.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Amcor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Amcor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Argo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Argo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Carrier.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Carrier.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Coolix.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Coolix.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Corona.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Corona.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Daikin.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Daikin.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Delonghi.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Delonghi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Denon.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Dish.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Doshisha.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Ecoclim.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Ecoclim.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Electra.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Electra.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_EliteScreens.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Epson.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Fujitsu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Fujitsu.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_GICable.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_GlobalCache.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Goodweather.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Goodweather.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Gree.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Gree.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Haier.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Haier.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Hitachi.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Hitachi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Inax.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_JVC.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Kelvinator.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Kelvinator.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_LG.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_LG.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Lasertag.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Lego.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Lutron.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_MWM.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Magiquest.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Magiquest.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Metz.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Midea.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Midea.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_MilesTag2.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Mirage.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Mitsubishi.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Mitsubishi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_MitsubishiHeavy.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_MitsubishiHeavy.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Multibrackets.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_NEC.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_NEC.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Neoclima.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Neoclima.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Nikai.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Panasonic.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Panasonic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Pioneer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Pronto.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_RC5_RC6.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_RCMM.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Samsung.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Samsung.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Sanyo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Sanyo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Sharp.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Sharp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Sherwood.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Sony.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Symphony.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Tcl.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Tcl.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Technibel.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Technibel.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Teco.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Teco.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Toshiba.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Toshiba.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Transcold.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Transcold.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Trotec.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Trotec.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Truma.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Truma.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Vestel.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Vestel.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Voltas.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Voltas.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Whirlpool.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Whirlpool.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Whynter.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Xmp.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/ir_Zepeal.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/locale/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/locale/de-CH.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/locale/de-DE.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/locale/defaults.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/locale/en-AU.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/locale/en-IE.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/locale/en-UK.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/locale/en-US.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/locale/es-ES.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/locale/fr-FR.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/locale/it-IT.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/locale/pt-BR.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src/locale/zh-CN.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/IRac_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/IRrecv_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/IRrecv_test.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/IRsend_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/IRsend_test.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/IRutils_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Airwell_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Aiwa_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Amcor_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Argo_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Carrier_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Coolix_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Corona_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Daikin_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Delonghi_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Denon_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Dish_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Doshisha_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Ecoclim_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Electra_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_EliteScreens_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Epson_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Fujitsu_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_GICable_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_GlobalCache_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Goodweather_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Gree_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Haier_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Hitachi_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Inax_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_JVC_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Kelvinator_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_LG_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Lasertag_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Lego_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Lutron_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_MWM_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Magiquest_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Metz_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Midea_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Milestag2_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Mirage_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_MitsubishiHeavy_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Mitsubishi_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Multibrackets_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_NEC_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Neoclima_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Nikai_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Panasonic_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Pioneer_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Pronto_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_RC5_RC6_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_RCMM_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Samsung_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Sanyo_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Sharp_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Sherwood_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Sony_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Symphony_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Tcl_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Technibel_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Teco_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Toshiba_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Transcold_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Trotec_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Truma_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Vestel_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Voltas_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Whirlpool_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Whynter_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Xmp_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/test/ir_Zepeal_test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/tools/RawToGlobalCache.sh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/tools/auto_analyse_raw_data.py">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/tools/auto_analyse_raw_data_test.py">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/tools/gc_decode.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/tools/generate_irtext_h.sh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/tools/mode2_decode.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/tools/raw_to_pronto_code.py">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/tools/raw_to_pronto_code_test.py">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/tools/scrape_supported_devices.py">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/.travis.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/CHANGES.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/examples/mqtt_auth/mqtt_auth.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/examples/mqtt_basic/mqtt_basic.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/examples/mqtt_esp8266/mqtt_esp8266.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/examples/mqtt_large_message/mqtt_large_message.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/examples/mqtt_publish_in_callback/mqtt_publish_in_callback.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/examples/mqtt_reconnect_nonblocking/mqtt_reconnect_nonblocking.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/examples/mqtt_stream/mqtt_stream.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/src/PubSubClient.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/src/PubSubClient.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/.github/CONTRIBUTING.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/.github/ISSUE_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/.travis.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/WiFiManager.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/WiFiManager.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/examples/AutoConnect/AutoConnect.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/examples/AutoConnectWithFSParameters/AutoConnectWithFSParameters.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/examples/AutoConnectWithFSParametersAndCustomIP/AutoConnectWithFSParametersAndCustomIP.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/examples/AutoConnectWithFeedback/AutoConnectWithFeedback.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/examples/AutoConnectWithFeedbackLED/AutoConnectWithFeedbackLED.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/examples/AutoConnectWithReset/AutoConnectWithReset.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/examples/AutoConnectWithStaticIP/AutoConnectWithStaticIP.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/examples/AutoConnectWithTimeout/AutoConnectWithTimeout.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/examples/OnDemandConfigPortal/OnDemandConfigPortal.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/extras/template.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager/travis/common.sh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/src/wifi_info.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

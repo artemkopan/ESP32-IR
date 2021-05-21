@@ -1,0 +1,4 @@
+.pio
+/.pio/
+/cmake-build-debug/
+/cmake-build-esp-wrover-kit/
