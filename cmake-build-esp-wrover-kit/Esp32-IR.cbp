@@ -48,7 +48,7 @@
 					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src"/>
-					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager"/>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src"/>
 					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/src"/>
 					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config"/>
@@ -114,14 +114,16 @@
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fb_gfx"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/cores/esp32"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/variants/esp32"/>
-					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src"/>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/AsyncElegantOTA/src"/>
 					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src"/>
 					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src"/>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/AzureIoT/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/BluetoothSerial/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/ESP32/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src"/>
@@ -173,7 +175,7 @@
 					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src"/>
-					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager"/>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src"/>
 					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/PubSubClient/src"/>
 					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config"/>
@@ -239,14 +241,16 @@
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fb_gfx"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/cores/esp32"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/variants/esp32"/>
-					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src"/>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/AsyncElegantOTA/src"/>
 					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote@2.9.0/src"/>
 					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremoteESP8266/src"/>
+					<Add directory="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/WiFiManager"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/AzureIoT/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/BluetoothSerial/src"/>
+					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/ESP32/src"/>
 					<Add directory="/Users/user/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src"/>
@@ -308,6 +312,555 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/.clang-format">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/.gitattributes">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/.mbedignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/.prettierignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/ArduinoJson.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/CHANGELOG.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/CMakeLists.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/CONTRIBUTING.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/LICENSE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/SUPPORT.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/appveyor.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/banner.svg">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/component.mk">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/examples/JsonConfigFile/JsonConfigFile.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/examples/JsonFilterExample/JsonFilterExample.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/examples/JsonGeneratorExample/JsonGeneratorExample.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/examples/JsonHttpClient/JsonHttpClient.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/examples/JsonParserExample/JsonParserExample.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/examples/JsonServer/JsonServer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/examples/JsonUdpBeacon/JsonUdpBeacon.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/examples/MsgPackParser/MsgPackParser.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/examples/ProgmemExample/ProgmemExample.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/examples/StringExample/StringExample.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Array/ArrayFunctions.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Array/ArrayImpl.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Array/ArrayIterator.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Array/ArrayRef.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Array/ArrayShortcuts.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Array/Utilities.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Configuration.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationError.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Deserialization/NestingLimit.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Deserialization/Reader.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStreamReader.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStringReader.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Deserialization/Readers/FlashReader.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Deserialization/Readers/IteratorReader.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Deserialization/Readers/RamReader.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Deserialization/Readers/StdStreamReader.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Deserialization/Readers/VariantReader.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Document/JsonDocument.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Json/EscapeSequence.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Json/Latch.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Json/Utf8.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Memory/Alignment.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Misc/Visitable.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/MsgPack/endianess.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/MsgPack/ieee754.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Namespace.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Numbers/Float.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Numbers/Integer.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Numbers/arithmeticCompare.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Numbers/convertNumber.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Object/ObjectFunctions.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Object/ObjectImpl.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Object/ObjectIterator.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Object/ObjectRef.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Object/ObjectShortcuts.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Object/Pair.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/alias_cast.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/assert.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/attributes.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/ctype.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/integer.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/limits.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/math.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/mpl/max.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/pgmspace.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/pgmspace_generic.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/preprocessor.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/safe_strcmp.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/static_array.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/conditional.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/declval.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/enable_if.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/integral_constant.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_array.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_base_of.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_class.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_const.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_convertible.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_enum.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_floating_point.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_integral.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_pointer.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_same.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_signed.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_unsigned.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/make_unsigned.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/remove_const.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/remove_reference.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/type_identity.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Polyfills/utility.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Serialization/CountingDecorator.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Serialization/Writer.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Serialization/Writers/ArduinoStringWriter.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Serialization/Writers/PrintWriter.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Serialization/Writers/StaticStringWriter.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStreamWriter.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Serialization/measure.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Serialization/serialize.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/StringStorage/StringStorage.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Strings/ArduinoStringAdapter.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Strings/ConstRamStringAdapter.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Strings/FlashStringAdapter.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Strings/FlashStringIterator.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Strings/IsString.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Strings/IsWriteableString.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Strings/RamStringAdapter.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Strings/SizedFlashStringAdapter.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Strings/SizedRamStringAdapter.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Strings/StdStringAdapter.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Strings/StoragePolicy.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Strings/String.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Variant/Converter.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Variant/VariantRef.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Variant/VariantShortcuts.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Variant/VariantSlot.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Variant/VariantTag.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Variant/VariantTo.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/compatibility.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/ArduinoJson/version.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/ArduinoJson/src/CMakeLists.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/AsyncElegantOTA/.gitattributes">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/AsyncElegantOTA/.github/FUNDING.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/AsyncElegantOTA/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/AsyncElegantOTA/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/AsyncElegantOTA/.travis.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/AsyncElegantOTA/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/AsyncElegantOTA/build_platformio.sh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/AsyncElegantOTA/examples/ESP32_Async_Demo/ESP32_Async_Demo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/AsyncElegantOTA/examples/ESP8266_Async_Demo/ESP8266_Async_Demo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/AsyncElegantOTA/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/AsyncElegantOTA/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/AsyncElegantOTA/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/AsyncElegantOTA/src/AsyncElegantOTA.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/AsyncElegantOTA/src/Hash.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/AsyncElegantOTA/src/elegantWebpage.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/AsyncElegantOTA/ui/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
 		<Unit filename="/Users/user/Documents/projects/IoT/Esp32-IR/.pio/libdeps/esp-wrover-kit/IRremote/.github/issue_template.md">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
