@@ -86,9 +86,6 @@ CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 //Path to a program.
 CMAKE_DLLTOOL:FILEPATH=CMAKE_DLLTOOL-NOTFOUND
 
-//Executable file format
-CMAKE_EXECUTABLE_FORMAT:STRING=MACHO
-
 //Flags used by the linker during all build types.
 CMAKE_EXE_LINKER_FLAGS:STRING=
 
@@ -235,6 +232,9 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 Esp32-IR_BINARY_DIR:STATIC=/Users/user/Documents/projects/IoT/Esp32-IR/cmake-build-esp-wrover-kit
 
 //Value Computed by CMake
+Esp32-IR_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
 Esp32-IR_SOURCE_DIR:STATIC=/Users/user/Documents/projects/IoT/Esp32-IR
 
 //Path to a program.
@@ -254,9 +254,9 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/Users/user/Documents/projects/IoT/Esp32-IR/cmake-b
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=19
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=21
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=2
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=1
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
 CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
@@ -295,6 +295,8 @@ CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
+//Executable file format
+CMAKE_EXECUTABLE_FORMAT:INTERNAL=MACHO
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
 CMAKE_EXE_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_DEBUG
@@ -361,7 +363,7 @@ CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19
+CMAKE_ROOT:INTERNAL=/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG

@@ -6,20 +6,27 @@
 #include <Wire.h>
 #include "esp_log.h"
 #include <ArduinoJson.h>
+#include <AsyncTCP.h>
+#include <ESPAsyncWebServer.h>
+#include <AsyncElegantOTA.h>
 
-#define RECEIVER_PIN 26
-#define SENDER_PIN 4
+
+#define RECEIVER_PIN 35
+#define SENDER_PIN 26
 
 WiFiClient espClient;
 PubSubClient client(espClient);
+AsyncWebServer server(80);
 
 #define mqtt_server "192.168.1.77"
 #define mqtt_username "admin"
 #define mqtt_pass "274733"
 #define ir_sending_topic "ir_sending_topic"
 
-const char *type_rc6 = "rc6";
-const char *type_nec = "nec";
+const char *command_tv_on_off = "tv_on_off";
+const char *command_audio_volume_up = "audio_volume_up";
+const char *command_audio_volume_down = "audio_volume_down";
+const char *command_audio_volume_mute = "audio_volume_mute";
 
 void callback(char *topic, byte *payload, unsigned int length) {
     Serial.print("Message arrived in topic: ");
@@ -36,25 +43,26 @@ void callback(char *topic, byte *payload, unsigned int length) {
     StaticJsonDocument<256> doc;
     deserializeJson(doc, message);
 
-    const char *type = doc["type"];
-
-    uint8_t address = doc["address"];
-    uint8_t command = doc["command"];
-    uint_fast8_t repeats = doc["repeats"];
-    bool automaticToggle = doc["automaticToggle"];
+    const char *command = doc["command"];
 
     Serial.println();
-    Serial.print("Json parsed");
+    Serial.print("Json parsed: ");
 
-    if (strcmp(type, type_rc6) == 0) {
-        Serial.print("Send RC6");
-        IrSender.sendRC6(address, command, repeats, automaticToggle);
-    } else if (strcmp(type, type_nec) == 0) {
-        Serial.print("Send NEC");
-        IrSender.sendNEC(address, command, repeats, automaticToggle);
+    if (strcmp(command, command_tv_on_off) == 0) {
+        Serial.println("Switch tv");
+        IrSender.sendRC6(0x0, 0xC, 1, false);
+    } else if (strcmp(command, command_audio_volume_up) == 0) {
+        Serial.println("Audio up");
+        IrSender.sendNEC(0xE78, 0x1, 1, false);
+    } else if (strcmp(command, command_audio_volume_down) == 0) {
+        Serial.println("Audio down");
+        IrSender.sendNEC(0xE78, 0x2, 1, false);
+    } else if (strcmp(command, command_audio_volume_mute) == 0) {
+        Serial.println("Audio mute");
+        IrSender.sendNEC(0xE78, 0x9, 1, false);
     } else {
-        Serial.print("Unknown type: ");
-        Serial.print(type);
+        Serial.println("Unknown command: ");
+        Serial.print(command);
     }
     Serial.println();
     Serial.println("-----------------------");
@@ -75,7 +83,7 @@ void setup_wifi() {
     }
 }
 
-void reconnect() {
+void checkMqttHealth() {
     // Loop until we're reconnected
     while (!client.connected()) {
         Serial.print("Attempting MQTT connection...");
@@ -103,6 +111,12 @@ void setup() {
 
     setup_wifi();
     client.setServer(mqtt_server, 1883);
+    server.on("/", HTTP_GET, [](AsyncWebServerRequest *request) {
+        request->send(200, "text/plain", "Hi! I am ESP32 [Universal remote].");
+    });
+
+    AsyncElegantOTA.begin(&server);    // Start ElegantOTA
+    server.begin();
 }
 
 void loop() {
@@ -111,7 +125,7 @@ void loop() {
         IrReceiver.resume(); // Continue receiving
     }
     if (!client.connected()) {
-        reconnect();
+        checkMqttHealth();
     }
     client.loop();
     delay(10);
